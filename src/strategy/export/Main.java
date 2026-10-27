@@ -4,7 +4,6 @@ import java.io.File;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        // Создаем временный тестовый файл
         File file = new File("report.pdf");
         file.createNewFile();
         file.deleteOnExit();
